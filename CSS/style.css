@@ -1,0 +1,13 @@
+html {
+    max-width: 500px;
+    margin: auto;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+}
+
+.box {
+    border: 2px solid black;
+}
