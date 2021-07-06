@@ -13,8 +13,12 @@ function makeDiv() {
 //return a random color
 function randomizeColor(e) {
     const r = Math.floor(Math.random() * 255);
-    const color = `rgb(${r}, ${r}, ${r})`;
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+
+    const color = `rgb(${r}, ${g}, ${b})`;
     e.style.backgroundColor = color;
+    console.log(r);
 }
 
 //Listens to mouse hover and then prompt a function
