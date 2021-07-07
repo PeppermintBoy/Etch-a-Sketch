@@ -15,7 +15,7 @@ const randomizeColor = function (e) {
     const r = Math.floor(Math.random() * 255);
     const g = Math.floor(Math.random() * 255);
     const b = Math.floor(Math.random() * 255);
-    e.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+    e.style.backgroundColor = `rgb(${r}, ${g}, ${b})`; 
 }
 
 //Listens to mouse hover and then prompt a function
